@@ -1,0 +1,53 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.similar-product-item-container {
+  margin-right: 66px;
+}
+
+.similar-product-image {
+  width: 200px;
+  border-radius: 12px;
+}
+
+.similar-product-name {
+  color: #171f46;
+  font-weight: 500;
+}
+
+.similar-product-brand {
+  color: #475569;
+  margin-bottom: 28px;
+}
+
+.similar-product-price-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.similar-product-price {
+  color: #12022f;
+  font-weight: 500;
+}
+
+.similar-product-rating {
+  font-size: 14px;
+}
+
+.similar-item-star-img {
+  width: 15px;
+  height: 15px;
+}
+
+.similar-product-rating-container {
+  color: #ffffff;
+  background-color: #3b82f6;
+  border-radius: 8px;
+  width: 56px;
+  height: 26px;
+  justify-content: center;
+  align-items: center;
+}
